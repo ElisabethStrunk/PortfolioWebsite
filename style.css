@@ -16,12 +16,22 @@ h2 {
     font-size: 2vw;
 }
 
+.card {
+    margin: 2%;
+}
+
 .header {
+    margin: 10% 0;
     background-color: var(--accent1);
     background-image: linear-gradient(to right, var(--accent1) , var(--accent2));
     color: white;
     font-style: bold;
     font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: white;
+    padding: 1%;
 }
 
 #profile_pic {
