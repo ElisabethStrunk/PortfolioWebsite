@@ -3,17 +3,20 @@
 
 @media screen and (min-width:1600px) {
     body,
-    .btn { font-size: 20px; }
+    .btn,
+    .tooltip { font-size: 20px; }
 }
 
 @media screen and (min-width:751px) and (max-width:1599px) {
     body,
-    .btn { font-size: 16px; }
+    .btn,
+    .tooltip { font-size: 16px; }
 }
 
 @media screen and (max-width:750px) {
 	body,
-    .btn { font-size: 14px; }
+    .btn,
+    .tooltip { font-size: 14px; }
 }
 
 h1,
@@ -36,6 +39,11 @@ h2 {
     padding: 2%;
 }
 
+.section .fa {
+    font-size: 5rem;
+    color: black;
+    margin: 0 2rem 0 0;
+}
 
 .footer .fa {
     font-size: 2rem;
