@@ -39,6 +39,10 @@ h2 {
     padding: 2%;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .section .fa {
     font-size: 5rem;
     color: black;
