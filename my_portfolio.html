@@ -6,19 +6,27 @@
     <title>
         Elisabeth Strunk
     </title>
-    <link rel="shortcut icon" 
-          href="favicon_new.ico" 
-          type="image/x-icon">
+    <link rel="shortcut icon" href="favicon_red.ico" type="image/x-icon">
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/scripts.js"></script>
+    <!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+      $(window).scroll(function() {
+          if ($(document).scrollTop() > 50) {
+              $('.nav').addClass('affix');
+              console.log("OK");
+          } else {
+              $('.nav').removeClass('affix');
+          }
+      });
+    </script>
     
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
-    <link type="text/css"
-          rel="stylesheet"
-          href="style.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 
 <body data-spy="scroll" data-target="mainListDiv">
@@ -47,21 +55,7 @@
 <section class="home">
 </section>
 
-<!-- Jquery needed -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="js/scripts.js"></script>
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
-<script>
-  $(window).scroll(function() {
-      if ($(document).scrollTop() > 50) {
-          $('.nav').addClass('affix');
-          console.log("OK");
-      } else {
-          $('.nav').removeClass('affix');
-      }
-  });
-</script>
 
 <div class="container">
   <!–– About Me ––>
