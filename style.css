@@ -28,3 +28,22 @@ h2 {
 .section {
     margin: 6rem 0 3rem 0;
 }
+
+.footer {
+    position: absolute;
+    width: 100%;
+    color: grey;
+    padding: 2%;
+}
+
+
+.footer .fa {
+    font-size: 2rem;
+    color: grey;
+    margin: 0 0 0 1rem;
+}
+
+.fa:hover {
+    color: var(--accent1);
+    text-decoration: none;
+}
