@@ -16,6 +16,15 @@
     .btn { font-size: 14px; }
 }
 
+h1,
+h2 {
+    font-weight: bold;
+}
+
 .card {
     margin: 2%;
+}
+
+.section {
+    margin: 6rem 0 3rem 0;
 }
