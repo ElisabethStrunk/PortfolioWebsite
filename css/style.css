@@ -49,20 +49,24 @@ a:hover {
     text-decoration: none;
 }
 
-#Contact .fa {
-    font-size: 5rem;
+.contact-fa {
+    font-size: 2.5rem;
     color: black;
-    margin: 0 2rem 0 0;
+    margin: 0 1rem 0 0;
 }
 
-.footer .fa {
-    font-size: 2rem;
+.contact-fa:hover {
+    color: var(--accent1);
+    text-decoration: none;
+}
+
+.footer-fa {
+    font-size: 1rem;
     color: grey;
-    margin: 0 0 0 1rem;
+    margin: 0 0 0 .5rem;
 }
 
-.fa:hover,
-#Contact .fa:hover {
+.footer-fa:hover {
     color: var(--accent1);
     text-decoration: none;
 }
